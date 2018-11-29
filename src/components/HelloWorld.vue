@@ -2,8 +2,8 @@
   <div>
     <mdc-card>
       <mdc-card-header
-        subtitle='subtitle here'
-        title='Title goes here'
+        subtitle='Contact Us'
+        :title='title'
       ></mdc-card-header>
       <mdc-card-primary-action>
         <mdc-card-media :src='card'></mdc-card-media>
@@ -26,7 +26,7 @@ export default {
   name: "HelloWorld",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
+      title: "Contact Us"
     };
   }
 };
