@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/ccdmndkut/material#readme",
   "dependencies": {
-    "material-components-web": "0.35.0",
+    "material-components-web": "latest",
     "vue": "^2.5.2",
-    "vue-mdc-adapter": "0.15.3"
+    "vue-mdc-adapter": "latest"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
